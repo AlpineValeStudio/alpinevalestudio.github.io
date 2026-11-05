@@ -78,8 +78,13 @@ summary:focus-visible{outline:2px solid currentColor;outline-offset:5px}
 .implementation-note{padding:26px 0 0;max-width:850px}.implementation-note h3{font-size:22px;line-height:1.5}.implementation-note h3 span{display:inline-block;margin-left:18px;font:14px 'Segoe UI',Arial,sans-serif}.implementation-note p{font-size:14px;margin:12px 0;line-height:1.7}@media(max-width:750px){.implementation-note h3 span{display:block;margin-left:0}}
 .price-row h3 sup{font-size:.6em;vertical-align:super;margin-left:3px}.price-row h3 sup a{text-decoration:none}#monthly-plan-note{scroll-margin-top:25px}
 
-/* Approved green with restrained open gold corner arcs. */
-html,body{overflow-x:clip}header{background-color:#3a5949}main>section:nth-of-type(odd){position:relative;isolation:isolate}main>section:nth-of-type(odd)::before{content:"";position:absolute;z-index:-1;pointer-events:none;inset:0 calc((100vw - 100%)/-2);background-color:#3a5949;background-image:linear-gradient(90deg,rgba(58,89,73,.45),rgba(58,89,73,.12)),url('/assets/alpine-pattern.svg');background-size:auto,700px 450px;background-position:0 0,right top;background-repeat:no-repeat}footer{background-image:linear-gradient(90deg,rgba(58,89,73,.45),rgba(58,89,73,.12)),url('/assets/alpine-pattern.svg');background-size:auto,700px 450px;background-position:0 0,right top;background-repeat:no-repeat}
+/* Approved symmetrical lattice: hero and about only. */
+html,body{overflow-x:clip}header{background-color:#3a5949}
+main>section:nth-of-type(odd){position:relative;isolation:isolate}
+main>section:nth-of-type(odd)::before{content:"";position:absolute;z-index:-1;pointer-events:none;inset:0 calc((100vw - 100%)/-2);background-color:#3a5949}
+#main>.hero::before,#main>#about::before{background-image:url('/assets/alpine-pattern.svg');background-size:220px auto;background-position:center top;background-repeat:repeat}
+@media(max-width:750px){#main>.hero::before,#main>#about::before{background-size:176px auto}}
+footer{background:#f5f3ec;color:#3a5949}footer :is(h2,p,a,.eyebrow,.footer-bottom){color:#3a5949}.footer-bottom{border-top-color:#c9cfc3}footer a:focus-visible{outline-color:#3a5949}
 </style>
 </head>
 <body>
