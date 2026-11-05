@@ -8,3 +8,5 @@
 
 /* Full-width gold edge finishes the hero wallpaper. */
 .contact-hero.gold-band{border-top:1px solid rgba(223,187,114,.20)}
+
+.intake-service strong{white-space:normal}.intake-service>label{grid-template-columns:22px minmax(0,1fr) minmax(90px,160px)}@media(max-width:650px){.intake-service>label{grid-template-columns:22px minmax(0,1fr)}.intake-service strong{grid-column:2;text-align:left}}
