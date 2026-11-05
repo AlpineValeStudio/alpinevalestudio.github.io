@@ -10,14 +10,14 @@
     "id": "social",
     "name": "Social Media Support",
     "cadence": "monthly",
-    "cents": 60000,
-    "detail": "Monthly content calendar, eight posts with captions and simple graphics using supplied assets, including up to two three-slide carousels. One platform or coordinated Instagram and Facebook using the same eight core posts. Scheduling after approval, a brief results summary, a 30-minute monthly call, and one consolidated revision round. Kickoff and initial direction included; first-month timing agreed upfront. Photography, video, ads, and daily inbox or comment management are separate."
+    "cents": 65000,
+    "detail": "Monthly content calendar, six posts with captions and simple graphics using supplied assets, including up to two three-slide carousels. One platform or coordinated Instagram and Facebook using the same six core posts. Scheduling after approval, a brief results summary, a 30-minute monthly call, and one consolidated revision round. Kickoff and initial direction included; first-month timing agreed upfront. Photography, video, ads, and daily inbox or comment management are separate."
   },
   {
     "id": "multi-support",
     "name": "Multi-Channel Marketing Support",
     "cadence": "monthly",
-    "cents": 75000,
+    "cents": 80000,
     "detail": "Monthly planning and hands-on work across two selected channels. Social + email: four social posts and two emails. Social + website: four social posts and one website update batch capped at 90 minutes. Email + website: two emails and that website update batch. Each email includes up to 400 words drafted from supplied information, an existing template, one audience per send, checks, and scheduling after approval. Includes a 45-minute monthly call, available-results review, one consolidated revision round, kickoff, and initial direction. Additional work, new templates, automations, and technical work are scoped separately."
   },
   {
