@@ -85,6 +85,10 @@ main>section:nth-of-type(odd)::before{content:"";position:absolute;z-index:-1;po
 #main>.hero::before,#main>#about::before{background-image:url('/assets/alpine-pattern.svg');background-size:220px auto;background-position:center top;background-repeat:repeat}
 @media(max-width:750px){#main>.hero::before,#main>#about::before{background-size:176px auto}}
 footer{background:#f5f3ec;color:#3a5949}footer :is(h2,p,a,.eyebrow,.footer-bottom){color:#3a5949}.footer-bottom{border-top-color:#c9cfc3}footer a:focus-visible{outline-color:#3a5949}
+
+/* Full-width gold edge finishes the hero wallpaper. */
+header{border-bottom-color:transparent}
+#main>.hero::after{content:"";position:absolute;pointer-events:none;top:0;left:calc((100vw - 100%)/-2);width:100vw;border-top:1px solid rgba(223,187,114,.20)}
 </style>
 </head>
 <body>

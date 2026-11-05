@@ -5,3 +5,6 @@
 .contact-hero.gold-band{background-color:#3a5949;background-image:url('/assets/alpine-pattern.svg');background-size:220px auto;background-position:center top;background-repeat:repeat}
 @media(max-width:750px){.contact-hero.gold-band{background-size:176px auto}}
 
+
+/* Full-width gold edge finishes the hero wallpaper. */
+.contact-hero.gold-band{border-top:1px solid rgba(223,187,114,.20)}
